@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Jenke Scheen
+email: jenkescheen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Personal description
+twitter_username: jenkescheen
+github_username: jenkescheen
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -56,49 +54,68 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
+
+atom_feed:
+  hide: true
 
 author:
-  name   : "First Lastname"
+  name   : " "
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "<div style='text-align: left'> Computational drug discovery scientist in alchemical free energy calculations and machine-learning approaches.</div>"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jenkescheen/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/Jenkescheen"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://fediscience.org/web/@jenkescheen"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://github.com/JenkeScheen"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=dbE46-4AAAAJ&hl=en&oi=ao"
+    - label: "0000-0001-9781-0445"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0001-9781-0445"
 footer:
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jenkescheen/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/Jenkescheen"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://fediscience.org/web/@jenkescheen"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/JenkeScheen"
+    - label: "Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.com/citations?user=dbE46-4AAAAJ&hl=en&oi=ao"
+    - label: "0000-0001-9781-0445"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0001-9781-0445"
+
 
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: "_pages"
