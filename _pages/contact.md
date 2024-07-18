@@ -13,5 +13,5 @@ Matters concerning the Open Molecular Software Foundation:
 [jenke.scheen@omsf.io](mailto:jenke.scheen@omsf.io)
 
 Consulting/ outreach: \
-[jenke.scheen@jsfiemel.com](mailto:jenke.scheen@jsfiemel)
+[jenke.scheen@jsfriemel.com](mailto:jenke.scheen@jsfriemel)
 
